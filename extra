@@ -1,0 +1,97 @@
+NodeJS
+=> Java => tomcat/Apacha
+=> .net => ISS 
+=> Php  => xamp/wamp
+=> JavaScript Framework => NodeJS
+
+/*******************************
+        Open Soure/NPM
+*******************************/
+package.json
+=> Entry point
+=> Description
+=> Packegs
+=> Versions
+
+json
+[
+    {
+        name: 'Aa',
+        class:'ui'
+    },
+    {
+        name: 'BB',
+        class:'Ai'
+    }
+]
+
+/*******************************
+        Step To Build Package.json
+*******************************/
+Step1:
+Navigate to folder using cmd/terminal
+Step2:
+npm init
+Step3:
+Answer All question
+{
+  "name": "basicpackage",
+  "version": "1.0.0",
+  "description": "this is about packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "Node"
+  ],
+  "author": "NareshIT",
+  "license": "ISC"
+}
+Step 4:
+Type Yes
+
+
+/*******************************
+  Install Packages
+*******************************/
+Local Packages => Local to the folder
+Global Package => Local to the system
+
+>>>>>Local Packages<<<<<<<<<
+npm install <package name> / npm i <package name>
+Step 1:
+Navigate to folder using cmd/terminal
+Step2:
+npm i zone.js
+
+
+>>>>>Global Packages<<<<<<<<<
+package that help to start app, create-app, moniter app, build app
+Step 1:
+Navigate to folder using cmd/terminal
+Step2:
+npm i -g @aakashdeveloper/create-node-app
+
+To install in window
+> Run cmd as admin
+> npm i -g @aakashdeveloper/create-node-app
+For Mac
+> sudo npm i -g @aakashdeveloper/create-node-app
+
+/*******************************
+   SetUp React
+*******************************/
+Step1:
+Navigate to folder using cmd/terminal
+Step2:
+npm install -g create-react-app
+Step3:
+create-react-app firstapp
+Step4:
+cd firstapp
+Step5:
+npm start
+Step6:
+http://localhost:3000/

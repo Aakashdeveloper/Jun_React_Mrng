@@ -1,0 +1,19 @@
+{
+  "name": "basicpackage",
+  "version": "1.0.0",
+  "description": "this is about packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "Node"
+  ],
+  "author": "NareshIT",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.1",
+    "zone.js": "^0.9.1"
+  }
+}

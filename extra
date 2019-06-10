@@ -95,3 +95,45 @@ Step5:
 npm start
 Step6:
 http://localhost:3000/
+
+/*******************************
+   Component
+*******************************/
+State & Props
+
+Class Base Component      |     Functional Component
+> Bit Heavy                       > Light 
+> Can Handle State                > Cannot handle State
+> More Logical Part               > More display
+
+/*******************************
+   Functional
+*******************************/
+///////////////////Es5(Ecma Script)//////////////////////////
+
+function add(a,b){
+  return a+b
+}
+
+add(1,2)
+
+///////////////////Es6(Ecma Script)//////////////////////////
+
+var add = (a,b) => { return a+b }
+
+add(1,2)
+
+let const
+
+var a = 10
+var a  // declaration
+a =10  // assignment
+
+
+var  => Redecalare and reassign
+let  => cannot Redecalare but reassign 
+const => cannot Redecalare nor reassign
+
+
+Only first component(index.js)  will do the render
+Rest we have to export

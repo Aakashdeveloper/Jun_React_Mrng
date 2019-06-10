@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import Header from './header';
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// JSX
+const App = () => {
+    return(
+        <div>
+            <Header/>
+            <h1>Welcome to react APP</h1>
+            <h2>This iS NareshIt Class</h2>
+            <div>
+                This is inner div
+            </div>
+        </div>
+    )
+}
+
+
+ReactDOM.render(<App/>, document.getElementById('root'));

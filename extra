@@ -137,3 +137,13 @@ const => cannot Redecalare nor reassign
 
 Only first component(index.js)  will do the render
 Rest we have to export
+
+/*******************************
+   Component
+*******************************/
+State
+Props
+State is local variable
+
+A         ------Props-------->  B
+State                           State

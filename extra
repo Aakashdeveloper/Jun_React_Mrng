@@ -147,3 +147,13 @@ State is local variable
 
 A         ------Props-------->  B
 State                           State
+
+
+/*******
+*******/
+var a = 10
+undefined
+a > 10 ? "ok":"not ok"
+"not ok"
+a == 10 ? "ok":"not ok"
+"ok"

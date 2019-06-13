@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 
 import Header from './component/header';
 import JSON from './db.json';
+import NewsList from './component/news_list';
 
 // JSX
 class App extends Component{
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
         
         this.state={
             news:JSON
@@ -15,15 +16,10 @@ class App extends Component{
         
     }
     render(){
-        console.log(">>>>",this.state.news)
         return(
             <div>
                 <Header/>
-                <h1>Welcome to react APP</h1>
-                <h2>This iS NareshIt Class</h2>
-                <div>
-                    This is inner div
-                </div>
+                <NewsList newsdata={this.state.news}/>
             </div>
         )
     }

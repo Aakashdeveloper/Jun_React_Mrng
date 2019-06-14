@@ -11,15 +11,29 @@ class App extends Component{
         super(props)
         
         this.state={
-            news:JSON
+            news:JSON,
+            filtered:JSON
         }
         
     }
+
+    filterNews(keyword){
+        let output  = this.state.news.filter((item) =>{
+            return item.title.toLowerCase().indexOf(keyword.toLowerCase()) > -1
+        })
+
+        this.setState({filtered: output})
+    }
+
+    /*var ages = [32, 33, 16, 40];
+ages.filter((age) => {  return age >= 18; });
+*/
+
     render(){
         return(
             <div>
-                <Header/>
-                <NewsList newsdata={this.state.news}/>
+                <Header userInput={(datafromheader)=> this.filterNews(datafromheader)}/>
+                <NewsList newsdata={this.state.filtered}/>
             </div>
         )
     }

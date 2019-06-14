@@ -203,3 +203,48 @@ git push -u origin master
 git add .
 git commit -m "first commit"
 git push
+
+
+/*******************************
+      Filter In Es6
+*******************************/
+var a = [0,1,2,3]
+a.map((data)=> {return (data*1)})
+  a.filter((data)=> {return (data*1)})
+
+
+  filter will return only values for which its true
+  map return all the value with the logic
+
+
+var ages = [32, 33, 16, 40];
+ages.filter((age) => {  return age >= 18; });
+
+
+var a = ['apple','mango','banana']
+undefined
+a.indexOf('mango')
+1
+a[0]
+"apple"
+a[1]
+"mango"
+a.indexOf('orange')
+-1
+a.indexOf('kiwi')
+-1
+
+from child to parent
+=> simple Props
+from parent to child
+=> props with function
+
+
+
+
+function add(a,b){
+  return a+b
+}
+
+
+add(1,2)

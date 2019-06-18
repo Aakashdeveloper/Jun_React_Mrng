@@ -4,7 +4,14 @@ class Home extends Component {
     render(){
         return(
             <div className="container">
-                <h1>Home page</h1>
+                <div class="panel panel-success">
+                    <div class="panel-heading">Home page Heading</div>
+                    <div class="panel-body">
+                        Home page Content
+                        <br/>
+                       
+                    </div>
+                </div>
             </div>
         )
     }

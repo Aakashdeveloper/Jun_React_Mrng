@@ -1,10 +1,17 @@
 import React, {Component} from 'react';
 
+
 class Profile extends Component {
     render(){
         return(
             <div>
-                <h1>Profile page</h1>
+                <div class="panel panel-danger">
+                    <div class="panel-heading">Profile page Heading</div>
+                    <div class="panel-body">
+                    Profile page Content
+                        <br/>
+                    </div>
+                </div>
             </div>
         )
     }

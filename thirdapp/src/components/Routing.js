@@ -10,7 +10,7 @@ class Routing extends Component {
             <BrowserRouter>
                 <div>
                     <Route exact path="/" component={Home}/>
-                    <Route exact path="artist/:artistid" component={Artist}/>
+                    <Route exact path="/artist/:artistid" component={Artist}/>
                 </div>
             </BrowserRouter>
         )

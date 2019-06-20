@@ -234,9 +234,9 @@ a.indexOf('orange')
 a.indexOf('kiwi')
 -1
 
-from child to parent
-=> simple Props
 from parent to child
+=> simple Props
+from child to parent
 => props with function
 
 

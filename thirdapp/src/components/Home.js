@@ -22,7 +22,13 @@ class Home extends Component {
     }
 
     componentDidMount(){
-        
+        fetch(Url_Artist,{
+            method:'GET'
+        })
+        .then((response) => response.json())
+        .then((data) => {
+            this.setState({artists: data})
+        })
     }
 }
 

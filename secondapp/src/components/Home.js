@@ -4,9 +4,9 @@ class Home extends Component {
     render(){
         return(
             <div className="container">
-                <div class="panel panel-success">
-                    <div class="panel-heading">Home page Heading</div>
-                    <div class="panel-body">
+                <div className="panel panel-success">
+                    <div className="panel-heading">Home page Heading</div>
+                    <div className="panel-body">
                         Home page Content
                         <br/>
                        

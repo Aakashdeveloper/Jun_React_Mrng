@@ -12,6 +12,8 @@ class Home extends Component {
             artists:''
         }
     }
+
+
     render(){
         return(
             <div>

@@ -5,14 +5,14 @@ class Posts extends Component {
     render(){
         return(
             <div>
-                <div class="panel panel-primary">
-                    <div class="panel-heading">Posts page Heading</div>
-                    <div class="panel-body">
+                <div className="panel panel-primary">
+                    <div className="panel-heading">Posts page Heading</div>
+                    <div className="panel-body">
                         Posts page Content
                         <br/>
-                        <Link to="/posts/javascript" class="btn btn-success">Javascript</Link>
+                        <Link to="/posts/javascript" className="btn btn-success">Javascript</Link>
                         <br/><br/>
-                        <Link to="/posts/redux" class="btn btn-danger">Redux</Link>
+                        <Link to="/posts/redux" className="btn btn-danger">Redux</Link>
                     </div>
                 </div>
             </div>

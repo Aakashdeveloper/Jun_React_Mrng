@@ -264,3 +264,13 @@ navbar
 npm install -g json-server
 
 json-server --watch db.json --port 8900
+
+/*******************************
+     Redux
+*******************************/
+View
+Action
+Reducer
+Store
+
+View => Action => Reducer => Store => view

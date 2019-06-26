@@ -274,3 +274,13 @@ Reducer
 Store
 
 View => Action => Reducer => Store => view
+
+
+action return{
+  Type
+  payload
+}
+
+///////
+component  => display
+container  => connecting to redux

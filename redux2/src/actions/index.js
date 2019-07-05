@@ -23,3 +23,15 @@ export function articleNews(){
         payload:output
     }
 }
+
+export function GalleryData(){
+    const output = fetch(`${URL}/galleries?_limit=2`,{
+        method:'GET'
+    })
+    .then(response => response.json())
+
+    return{
+        type:'GET_GALLERY',
+        payload:output
+    }
+}

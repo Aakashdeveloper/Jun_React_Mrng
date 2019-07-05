@@ -5,7 +5,7 @@ const renderArticles = ({articledata}) =>{
     if(articledata){
         return articledata.map((item) => {
             return(
-                <Link to="/" key={item.id} className="item">
+                <Link to={`/news/${item.id}`}key={item.id} className="item">
                     <div className="left"
                     style={{background:`url(/images/articles/${item.img})`}}>
                     </div>

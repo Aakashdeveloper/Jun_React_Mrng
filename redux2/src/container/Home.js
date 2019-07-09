@@ -12,12 +12,12 @@ class Home extends Component {
         this.props.latestNews()
         this.props.articleNews()
         this.props.GalleryData()
-
     }
+
     render(){
         return(
             <div>
-                <LatestNews latestdata={this.props.news.latest}/>
+                <LatestNews latestdata={this.props.news.latest}></LatestNews>
                 <ArticleNews articledata={this.props.news.articles}/>
                 <Gallery latestGallery={this.props.galdata.galleryimg}/>
             </div>

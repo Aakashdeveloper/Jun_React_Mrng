@@ -10,6 +10,7 @@ import Footer from '../component/Footer';
 import Home from '../container/Home';
 import GalleryDetail from '../container/GalleryDetail';
 import NewsDetail from '../container/NewsDetail';
+import FormComponent from '../container/FormsComponent';
 
 class App extends Component{
     render(){
@@ -21,6 +22,7 @@ class App extends Component{
                             <Route exact path="/" component={Home}/>
                             <Route exact path="/news/:id" component={NewsDetail}/>
                             <Route exact path="/gallery/:id" component={GalleryDetail}/>
+                            <Route exact path="/forms" component={FormComponent}/>
                         <br/>
                         <Footer/>
                     </div>

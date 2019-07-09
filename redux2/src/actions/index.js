@@ -55,3 +55,25 @@ export function clearSelecetdNews(){
     }
 }
 
+export function handleLikes(array,id){
+    const output = fetch(`${URL}/articles/${id}`,{
+        method:'PATCH',
+        headers:{
+            'Accept':'application/json',
+            'Content-Type':'application/json'
+        },
+        body: JSON.stringify({likes:array})
+    })
+    .then(response => response.json())
+    .catch(console.log('gggg'))
+    
+    return{
+        type:'HANDLE_LIKES',
+        payload:output
+    }
+}
+
+
+export function postData(){
+
+}

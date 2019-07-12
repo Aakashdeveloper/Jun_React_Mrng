@@ -3,7 +3,7 @@ import { API } from '../config';
 
 export function getPropertyData(){
     const config = {
-        url:`${API.API_LINK}?limit=5`,
+        url:`${API.API_LINK}?limit=10`,
         method:'GET',
         headers:{
             'Authorization':'Basic c2ltcGx5cmV0czpzaW1wbHlyZXRz',
